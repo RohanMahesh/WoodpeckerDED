@@ -4,8 +4,10 @@ import random
 from matplotlib.colors import ListedColormap
 
 p = 0.4
-n = 30
-iterations = 10
+n = 100
+iterations = 100
+
+
 
 def single_center_grid(n):
     # 30x30 grid of 0's
@@ -56,3 +58,4 @@ for t in range(iterations + 1):
 
 plt.ioff()
 plt.show()
+
